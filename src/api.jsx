@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://backend-jwt-e2ai.onrender.com",
+  baseURL: "https://express-jwt-8xp4.onrender.com",
 });
 
 api.interceptors.request.use((config) => {
